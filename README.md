@@ -1,0 +1,1 @@
+This is the first project in the odin project which is based on recreating the google homepage. I hope to learn search bar, html layout, inserting logo and moving text around/flexbox/css grid
