@@ -1,9 +1,24 @@
-.navbar{
-    text-decoration: none;
+.navtop{
+    display: flex;
+    flex-direction: row;
+}
+.navtop > .navright{
+    margin-left: auto;
+}
+.navleft{
+    /* text-decoration: none; */
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.navright{
+    /* text-decoration: none; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    /* align-content: flex-end; */
+
 }
 
 .logo{
@@ -13,6 +28,15 @@
     margin-top: 80px;
 
 }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
 
 a{
     text-decoration: none;
@@ -40,4 +64,23 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navbarbottomleft{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+}
+.canada{
+    background-color: lightgrey;
+    display: flex;
+
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
 }
