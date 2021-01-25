@@ -10,10 +10,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 
 }
 
 a{
     text-decoration: none;
     color: black;
+}
+
+.searchbar{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Searchbutton{
+    margin-right: 20px;
+}
+
+.frenchversion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
